@@ -1,0 +1,17 @@
+.solutions/
+solutions/
+exams/
+
+420-2020-spring/
+420-2022-spring/
+420-2024-fall/
+carnegie-mellon-files/
+kawai-thermo-files/
+schroeder-files/
+*~
+.ipynb_checkpoints/
+*.log
+*.aux
+*.synctex.gz
+*.autosave.xopp
+.virtual_documents/
