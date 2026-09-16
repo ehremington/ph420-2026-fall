@@ -17,6 +17,65 @@
 | 260831 M | week 2 worksheet | week 2 |
 | 260902 W | week 3 worksheet | week 3 |
 
+## day 10 | 260916 W
+
+We will finish the problem 1.16 that we started last time. There are some important notes from this I want you to have. Separation of Variables is an extremely useful technique for solving many differential equations in physics. 
+
+## day 9 | 260914 M
+
+We will begin today going through in class some above average questions from chapter 1, which do not belong within the broader text, but which are still important, either because they are using some element of reasoning that we will use again, or they have some math technique in them that is good to see. 
+
+
+## day 8 | 260911 F
+
+We will talk through the last few bits of intoductory thermo, by discussing the isothermal process along with the adiabatic process. I want to leave some notes here as a summary of our discussion today on these processes.
+
+An *isothermal process* is one where the temperature is constant. This amounts in most situations to no change in internal energy, so we can summarize it like this
+
+\\[\Delta U = 0 = Q + W\\]
+\\[Q=-W\\]
+
+Now this is fine to say, but it leaves a question about how to we find the work? The pressure changes as the volume changes, so this means that there is an integral to do. The answer is that 
+
+\\[W = -N k_B T \ln\frac{V_2}{V_1}\\]
+
+and since in the heat is the opposite of work in this case:
+
+\\[Q = N k_B T \ln\frac{V_2}{V_1}\\]
+
+Just be careful about some books absorbing that negative sign in the work formula and inverting the Volume ratio without telling you.
+
+An *adiabatic process* is one in which no heat is added or removed during the change in volume. There are two ways of looking at this:
+
+1. According to the first law in the way that we have used it
+
+\\[\Delta U = \cancelto{0}{Q} + W\\]
+
+The consequence of this is that 
+
+\\[\Delta U = \frac{f}{2}N k_B T = W \\]
+
+
+2. Also according to the first law, but in a smaller sense we have
+
+\\[dU = \bar{d}W\\]
+
+From this expression, we can derive the following formula:
+
+\\[\left(\frac{T_2}{T_1}\right)^{f/2} = \frac{V_1}{V_2}\\]
+
+And combined with the ideal gas law, we can work through many different situations.
+
+
+
+## day 7 | 260909 W
+
+We will continue to work on the week 3 worksheet and finish up thermodynamic cycles by talking through
+
+## 260907 M - Labor Day
+
+
+
 ## day 6 | 260904 F
 
 We begin right in the middle of a problem, but there are some important things within this problem that I did not want to rush through. Some of these things we will see and offer proofs of throughout this semester. One of the most important of these is the equipartition theorem, which is jumping a head slightly, but I'll go ahead and introduce it now and we will cover it again soon. The equipartition theorem says that for each degree of freedom (that is each way or direction that a particle can have energy) each add \\(1/2 kT\\). This means that for N particles within a substance the total energy of that substance can be found with:
@@ -66,5 +125,5 @@ Check out this website: https://manytinythings.github.io/
 
     [NbConvertApp] Converting notebook README.ipynb to markdown
     [NbConvertApp] Support files will be in README_files/
-    [NbConvertApp] Writing 1430 bytes to README.md
+    [NbConvertApp] Writing 4706 bytes to README.md
 
