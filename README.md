@@ -17,6 +17,17 @@
 | 260831 M | week 2 worksheet | week 2 |
 | 260902 W | week 3 worksheet | week 3 |
 
+## day 12 | 260921 M
+
+Today, we will continue down the path of problem 1.17, finishing up what we hoped to get done last time, and working again, this time on part (c) and (d). These again are involving skills that I hope you get good at, and we will discuss alternate ways of doing them, but at the end of the day, the second order expansion is an important tool, and just the idea of plotting something and figuring out how to fit something else to it are important. And yes! I am leaving those 'somethings' vague here intentionally, because like last time, I want you to think about the meta-goal here, not the actual problem at hand. But of course we have to work on something specific to give an example of doing that. 
+
+## day 11 | 260918 F
+
+Today we started a very involved problem, 1.17. This problem is so tough because it involves some deep problem solving techniques that I think are worth showing to the entire class. So pay attention to the problem, but pay attention to the meta-problem of how to solve it and what processes are involved. We focus today just on part (a), which involves solving a quadratic equation, which on the face of it is not that bad, but again, there are issues of which of the two values that come out of the quadratic equation are the correct one? We will use the Ideal Gas Law, not the virial expansion to help us decide.
+
+[Include a link to jupyter file.](assignments/1p17-in-class.ipynb)
+
+
 ## day 10 | 260916 W
 
 We will finish the problem 1.16 that we started last time. There are some important notes from this I want you to have. Separation of Variables is an extremely useful technique for solving many differential equations in physics. 
@@ -37,11 +48,11 @@ An *isothermal process* is one where the temperature is constant. This amounts i
 
 Now this is fine to say, but it leaves a question about how to we find the work? The pressure changes as the volume changes, so this means that there is an integral to do. The answer is that 
 
-\\[W = -N k_B T \ln\frac{V_2}{V_1}\\]
+\\[W = -N k_B T \ln\frac{V\_2}{V\_1}\\]
 
 and since in the heat is the opposite of work in this case:
 
-\\[Q = N k_B T \ln\frac{V_2}{V_1}\\]
+\\[Q = N k_B T \ln\frac{V\_2}{V\_1}\\]
 
 Just be careful about some books absorbing that negative sign in the work formula and inverting the Volume ratio without telling you.
 
@@ -53,16 +64,16 @@ An *adiabatic process* is one in which no heat is added or removed during the ch
 
 The consequence of this is that 
 
-\\[\Delta U = \frac{f}{2}N k_B T = W \\]
+\\[\Delta U = \frac{f}{2}N k\_B T = W \\]
 
 
 2. Also according to the first law, but in a smaller sense we have
 
-\\[dU = \bar{d}W\\]
+\\[dU = \bar{d} W\\]
 
 From this expression, we can derive the following formula:
 
-\\[\left(\frac{T_2}{T_1}\right)^{f/2} = \frac{V_1}{V_2}\\]
+$$\left(\frac{T\_2}{T\_1}\right)^{f/2} = \frac{V\_1}{V\_2}$$
 
 And combined with the ideal gas law, we can work through many different situations.
 
@@ -70,7 +81,8 @@ And combined with the ideal gas law, we can work through many different situatio
 
 ## day 7 | 260909 W
 
-We will continue to work on the week 3 worksheet and finish up thermodynamic cycles by talking through
+We will continue to work on the week 3 worksheet and finish up thermodynamic cycles by talking through different kinds of cycles and through the end of this worksheet.
+
 
 ## 260907 M - Labor Day
 
@@ -125,5 +137,5 @@ Check out this website: https://manytinythings.github.io/
 
     [NbConvertApp] Converting notebook README.ipynb to markdown
     [NbConvertApp] Support files will be in README_files/
-    [NbConvertApp] Writing 4706 bytes to README.md
+    [NbConvertApp] Writing 6965 bytes to README.md
 
