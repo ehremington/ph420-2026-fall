@@ -17,6 +17,19 @@
 | 260831 M | week 2 worksheet | week 2 |
 | 260902 W | week 3 worksheet | week 3 |
 
+
+## day 15 | 260928 M
+
+We will look at how to handle large numbers as well as how to handle **very** large numbers. And we will introduce *Stirling's approximation* which will give us a way of calculating these enormous numbers and give us some ways of simplifying things. One other way we can reduce the size of these things is to use logarithms, and that is exactly what we will do. So we will get an expression for the natural log of the multiplicity and we will investigate this in the *high temperature limit* and that is when we have many more energy packets \\(q\\) than we have numbers of particles \\(N\\).
+
+## day 14 | 260925 F
+
+Today we largely will look at what we did yesterday, except we will get our computers to crunch the numbers for us. So we will look at a simple case first of two Einstein solids with 3 particles each, and we will count the number of microstates again using the multiplicity formula. We can then ask about larger numbers of particles that would be very cumbersome to calculate by hand. One thing that we will see however, is that this quickly becomes too cumbersome for even our computers to handle! These numbers are astronomically large, so that will pose some challenges that we will discuss next time.
+
+## day 13 | 260923 W
+
+Today we will begin chapter 2. We will start something called the multiplicity, which is simply a way to count the number of *microstates* in a *macrostate*. A *microstate* is one particular arrangement or combination of something (like coin flips, or dices rolls, or energy packets in an atom). Energy can be arranged in a dizzying number of microstates, while all being in the same *macrostate*, which is usually a measureable thing, like the total amount of energy in the solid. by saying that the particular energy packets can wander around and be in any particular atom randomly and can transfer quickly, we are forming a model about how the energy in that solid works. But what we measure about the substance is not the energy in any one particular atom, but rather the total number of energy packets distributed around the solid. So we measure a macrostate, like how much energy is there, or how many particles are there. 
+
 ## day 12 | 260921 M
 
 Today, we will continue down the path of problem 1.17, finishing up what we hoped to get done last time, and working again, this time on part (c) and (d). These again are involving skills that I hope you get good at, and we will discuss alternate ways of doing them, but at the end of the day, the second order expansion is an important tool, and just the idea of plotting something and figuring out how to fit something else to it are important. And yes! I am leaving those 'somethings' vague here intentionally, because like last time, I want you to think about the meta-goal here, not the actual problem at hand. But of course we have to work on something specific to give an example of doing that. 
@@ -137,5 +150,5 @@ Check out this website: https://manytinythings.github.io/
 
     [NbConvertApp] Converting notebook README.ipynb to markdown
     [NbConvertApp] Support files will be in README_files/
-    [NbConvertApp] Writing 6965 bytes to README.md
+    [NbConvertApp] Writing 8472 bytes to README.md
 
