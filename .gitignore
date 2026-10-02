@@ -15,3 +15,4 @@ schroeder-files/
 *.synctex.gz
 *.autosave.xopp
 .virtual_documents/
+.DS_Store
